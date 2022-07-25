@@ -92,7 +92,7 @@ button {
     height: 60px;
     width: 60px;
     border: 0;
-    border-radius: 30px;
+    border-radius: 50px;
     margin: 5px;
     font-size: 20px;
     cursor: pointer;
@@ -176,4 +176,45 @@ button#equal {
     color: #ffffff;
     box-shadow: rgba(184, 182, 182, 0.4) 0px 2px 4px, rgba(182, 179, 179, 0.3) 0px 7px 13px -3px, rgba(190, 184, 184, 0.2) 0px -3px 0px inset;
   }
+
   
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .calculator {
+        position: relative;
+        height: auto;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .calculator{
+        position: relative;
+        height: auto;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .calculator {
+        position: relative;
+        height: auto;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .calculator {
+        position: relative;
+        height: auto;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .calculator {
+        position: relative;
+        height: auto;
+  }
+}
